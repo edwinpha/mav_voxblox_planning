@@ -3,7 +3,7 @@
 # Getting Started
 ## Installation
 
-This package is intended to be used with Ubuntu 18.04 and [ROS kinetic](http://wiki.ros.org/melodic/Installation/Ubuntu) or above.
+This package is intended to be used with Ubuntu 18.04 and [ROS melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) or above.
 After installing ROS, install some extra dependencies, substituting kinetic for your ROS version as necessary:
 ```
 sudo apt-get install ros-melodic-cmake-modules python-wstool python-catkin-tools libyaml-cpp-dev protobuf-compiler autoconf
@@ -21,7 +21,7 @@ catkin config --merge-devel
 If using [**SSH keys for github**](https://help.github.com/articles/connecting-to-github-with-ssh/) (recommended):
 ```
 cd ~/catkin_ws/src/
-git clone git@github.com:ethz-asl/mav_voxblox_planning.git
+git clone git@github.com:edwinpha/mav_voxblox_planning.git
 wstool init . ./mav_voxblox_planning/install/install_ssh.rosinstall
 wstool update
 ```

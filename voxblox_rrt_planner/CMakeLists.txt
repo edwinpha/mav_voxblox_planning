@@ -13,7 +13,7 @@ cs_add_library(${PROJECT_NAME}
   src/voxblox_ompl_rrt.cpp
   src/voxblox_rrt_planner.cpp
 )
-target_link_libraries(${PROJECT_NAME} ${OMPL_LIBRARIES})
+target_link_libraries(${PROJECT_NAME} ${OMPL_LIBRARIES} ompl)
 
 ############
 # BINARIES #
