@@ -1,3 +1,6 @@
+- git: {local-name: mavlink, uri: 'https://github.com/mavlink/mavlink'}
+- git: {local-name: mavros, uri: 'https://github.com/mavlink/mavros'}
+- git: {local-name: rotors_simulator, uri: 'https://github.com/ethz-asl/rotors_simulator.git'}
 - git: {local-name: eigen_catkin, uri: 'https://github.com/ethz-asl/eigen_catkin.git'}
 - git: {local-name: eigen_checks, uri: 'https://github.com/ethz-asl/eigen_checks.git'}
 - git: {local-name: glog_catkin, uri: 'https://github.com/ethz-asl/glog_catkin.git'}
