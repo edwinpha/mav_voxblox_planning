@@ -41,3 +41,11 @@ Compile:
 cd ~/catkin_ws/src/
 catkin build mav_voxblox_planning
 ```
+
+If you have problems with ompl, remove ROS-Melodic library and install the direct ompl library. 
+
+In terminal:
+```
+sudo apt remove ros-melodic-ompl
+sudo apt-get install libompl-dev
+```
